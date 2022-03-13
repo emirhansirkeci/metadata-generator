@@ -80,6 +80,7 @@ export default function Hero() {
         <input id="howManyLayers" placeholder="Layers Length" />
         <button onClick={() => layerGenerator()}>Generate</button>
       </div>
+      <p onClick={() => location.reload()} id="error"></p>
       {status ? <h2 style={{ letterSpacing: "4px" }}>Layers</h2> : <></>}
       <div className="layers" id="layers"></div>
 
@@ -97,7 +98,6 @@ export default function Hero() {
           How many layers do you want to write your metadata?
         </p>
       )}
-      <p onClick={() => location.reload()} id="error"></p>
     </div>
   );
 }
