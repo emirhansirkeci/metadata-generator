@@ -56,7 +56,7 @@ button {
   cursor: pointer;
 }
 
-#howManyLayers {
+.info {
   background-color: #5bc0de;
   padding: 0.5rem;
 }

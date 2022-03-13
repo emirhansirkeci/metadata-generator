@@ -92,7 +92,9 @@ export default function Hero() {
           </div>
         </>
       ) : (
-        <p>How many layers do you want to write your metadata?</p>
+        <p className="info">
+          How many layers do you want to write your metadata?
+        </p>
       )}
       <p onClick={() => location.reload()} id="error"></p>
     </div>
