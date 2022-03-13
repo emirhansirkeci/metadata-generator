@@ -6,10 +6,11 @@ export default function Hero() {
   const [layerLength, setLayerLength] = useState(0);
 
   function generateInput(i) {
+    if (i < 1) return;
     if (status) {
       document.getElementById("error").innerText =
         "Refresh the page and rewrite everything for generate a new json file. Click me for refresh the page.";
-      document.getElementById("error").style.visibility = "visible";
+      document.getElementById("error").style.display = "block";
       return;
     }
 
