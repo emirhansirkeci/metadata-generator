@@ -80,6 +80,7 @@ export default function Hero() {
         <input id="howManyLayers" placeholder="Layers Length" />
         <button onClick={() => layerGenerator()}>Generate</button>
       </div>
+      {status ? <h2 style={{ letterSpacing: "4px" }}>Layers</h2> : <></>}
       <div className="layers" id="layers"></div>
 
       {status ? (
