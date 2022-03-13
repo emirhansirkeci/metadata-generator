@@ -55,3 +55,8 @@ button {
   padding: 0.5rem;
   cursor: pointer;
 }
+
+#howManyLayers {
+  background-color: #5bc0de;
+  padding: 0.5rem;
+}
